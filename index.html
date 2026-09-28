@@ -704,28 +704,29 @@
     </div>
 </div>
 
-                    <!-- Sample Card 4 -->
-                    <div class="glass-card glass-card-hover rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between group cursor-pointer" onclick="openModal('images/work-samples/07_bbs.png', 'Bar Bending Schedule (BBS)', 'Demonstrated work: rebar quantity schedules, member identification, bar dimensions and lengths, weight calculations, and BBS preparation/cross-checking.')">
-                        <div>
-                            <div class="h-48 bg-slate-800 relative overflow-hidden">
-                                <img src="images/work-samples/07_bbs.png" 
-                                     alt="Bar Bending Schedule work sample" 
-                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                                     onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full flex flex-col items-center justify-center p-4 bg-slate-800 text-center\'><i class=\'fa-solid fa-bars-staggered text-4xl text-purple-400 mb-2\'></i><span class=\'font-bold text-xs text-white\'>Bar Bending Schedule (BBS)</span><span class=\'text-[10px] text-slate-400 mt-1\'>Click to inspect scope</span></div>';">
-                                <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
-                                    <span class="px-3 py-1.5 rounded-lg bg-purple-400 text-slate-950 font-bold text-xs shadow-lg"><i class="fa-solid fa-expand mr-1"></i> Preview Schedule</span>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h3 class="font-heading font-bold text-white text-base mb-1">Bar Bending Schedule (BBS)</h3>
-                                <p class="text-xs text-slate-400 line-clamp-2">Detailed rebar schedules, cut lengths, bar shapes, member matching, and steel tonnage.</p>
-                            </div>
-                        </div>
-                        <div class="px-5 pb-5">
-                            <span class="text-[11px] text-purple-400 font-semibold block">Focus: Reinforcement Accuracy</span>
-                        </div>
-                    </div>
+<!-- Bar Bending Schedule (BBS) Card -->
+<div class="glass-card rounded-2xl border border-purple-500/30 overflow-hidden flex flex-col justify-between">
+    <!-- Image Container -->
+    <div class="h-48 bg-slate-800 relative overflow-hidden border-b border-slate-800 group cursor-pointer">
+        <img src="07_bbs.png" 
+             alt="Bar Bending Schedule (BBS)" 
+             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+             onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full flex flex-col items-center justify-center bg-slate-800 text-slate-400 p-4 text-center\'><i class=\'fa-solid fa-bars text-3xl text-purple-400 mb-2\'></i><span class=\'font-semibold text-xs text-white\'>Bar Bending Schedule (BBS)</span><span class=\'text-[10px] text-slate-400 mt-1\'>Click to inspect scope</span></div>';">
+    </div>
 
+    <!-- Content Area -->
+    <div class="p-6 flex flex-col justify-between flex-grow">
+        <div>
+            <h3 class="font-heading text-xl font-bold text-white mb-2">Bar Bending Schedule (BBS)</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Detailed rebar schedules, cut lengths, bar shapes, member matching, and steel tonnage.
+            </p>
+        </div>
+        <div class="text-xs text-purple-400 pt-3 border-t border-slate-800 font-medium">
+            Focus: Reinforcement Accuracy
+        </div>
+    </div>
+</div>
                     <!-- Sample Card 5 (Highlighted Feature) -->
                     <div class="glass-card glass-card-hover rounded-2xl overflow-hidden border-2 border-brand-amber/60 flex flex-col justify-between group cursor-pointer relative" onclick="openModal('images/work-samples/08_change order.png', 'Change Order Evaluation (~31% Savings)', 'The portfolio documents a change-order evaluation where the reviewed amount resulted in an approximately 31% reduction from the contractor initial submitted amount based on quantity checks, applicable rates, and site inspection.')">
                         <div class="absolute top-2 right-2 bg-emerald-500 text-slate-950 text-[10px] font-extrabold px-2.5 py-1 rounded-full z-10 shadow">
