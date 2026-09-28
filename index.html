@@ -680,27 +680,29 @@
     </div>
 </div>
 
-                    <!-- Sample Card 3 -->
-                    <div class="glass-card glass-card-hover rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between group cursor-pointer" onclick="openModal('images/work-samples/boq.png', 'BOQ / Quantity Breakdown', 'Demonstrated work: detailed quantity breakdown, work-item organization, cost and quantity comparison, and BOQ documentation.')">
-                        <div>
-                            <div class="h-48 bg-slate-800 relative overflow-hidden">
-                                <img src="images/work-samples/boq.png" 
-                                     alt="Bill of Quantities work sample" 
-                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                                     onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full flex flex-col items-center justify-center p-4 bg-slate-800 text-center\'><i class=\'fa-solid fa-table-cells text-4xl text-emerald-400 mb-2\'></i><span class=\'font-bold text-xs text-white\'>BOQ Breakdown Sheet</span><span class=\'text-[10px] text-slate-400 mt-1\'>Click to inspect scope</span></div>';">
-                                <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
-                                    <span class="px-3 py-1.5 rounded-lg bg-emerald-400 text-slate-950 font-bold text-xs shadow-lg"><i class="fa-solid fa-expand mr-1"></i> Preview BOQ</span>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h3 class="font-heading font-bold text-white text-base mb-1">Bill of Quantities (BOQ)</h3>
-                                <p class="text-xs text-slate-400 line-clamp-2">Structured line-item quantity breakdowns, work-item organization, and rate models.</p>
-                            </div>
-                        </div>
-                        <div class="px-5 pb-5">
-                            <span class="text-[11px] text-emerald-400 font-semibold block">Deliverable: Commercial Pre-Bid BOQ</span>
-                        </div>
-                    </div>
+<!-- Bill of Quantities (BOQ) Card -->
+<div class="glass-card rounded-2xl border border-emerald-500/30 overflow-hidden flex flex-col justify-between">
+    <!-- Image Container -->
+    <div class="h-48 bg-slate-800 relative overflow-hidden border-b border-slate-800 group cursor-pointer">
+        <img src="boq-breakdown.png" 
+             alt="BOQ Breakdown Sheet" 
+             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+             onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full flex flex-col items-center justify-center bg-slate-800 text-slate-400 p-4 text-center\'><i class=\'fa-solid fa-table-cells text-3xl text-emerald-400 mb-2\'></i><span class=\'font-semibold text-xs text-white\'>BOQ Breakdown Sheet</span><span class=\'text-[10px] text-slate-400 mt-1\'>Click to inspect scope</span></div>';">
+    </div>
+
+    <!-- Content Area -->
+    <div class="p-6 flex flex-col justify-between flex-grow">
+        <div>
+            <h3 class="font-heading text-xl font-bold text-white mb-2">Bill of Quantities (BOQ)</h3>
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Structured line-item quantity breakdowns, work-item organization, and rate models.
+            </p>
+        </div>
+        <div class="text-xs text-emerald-400 pt-3 border-t border-slate-800 font-medium">
+            Deliverable: Commercial Pre-Bid BOQ
+        </div>
+    </div>
+</div>
 
                     <!-- Sample Card 4 -->
                     <div class="glass-card glass-card-hover rounded-2xl overflow-hidden border border-slate-800 flex flex-col justify-between group cursor-pointer" onclick="openModal('images/work-samples/07_bbs.png', 'Bar Bending Schedule (BBS)', 'Demonstrated work: rebar quantity schedules, member identification, bar dimensions and lengths, weight calculations, and BBS preparation/cross-checking.')">
